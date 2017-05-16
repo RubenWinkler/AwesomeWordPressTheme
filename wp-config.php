@@ -29,7 +29,7 @@
  * Ersetze datenbankname_hier_einfuegen
  * mit dem Namen der Datenbank, die du verwenden möchtest.
  */
-define('DB_NAME', 'wordpressdevelopment');
+define('DB_NAME', 'awesomewordpresstheme');
 
 /**
  * Ersetze benutzername_hier_einfuegen
@@ -40,7 +40,7 @@ define('DB_USER', 'ruben');
 /**
  * Ersetze passwort_hier_einfuegen mit deinem MySQL-Passwort.
  */
-define('DB_PASSWORD', '5Y5RXpxpUmLzLJwE');
+define('DB_PASSWORD', '8ZUXEjv9C97H4BRx');
 
 /**
  * Ersetze localhost mit der MySQL-Serveradresse.
@@ -88,7 +88,7 @@ define('DB_COLLATE', '');
  * verschiedene WordPress-Installationen betreiben.
  * Bitte verwende nur Zahlen, Buchstaben und Unterstriche!
  */
-$table_prefix  = 'wpd_';
+$table_prefix  = 'awpt_';
 
 /**
  * Für Entwickler: Der WordPress-Debug-Modus.

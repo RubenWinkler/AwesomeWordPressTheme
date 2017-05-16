@@ -31,7 +31,7 @@
 <footer>
   <div class="container">
     <div class="col-sm-3">
-      <p><a href="/"><img src="assets/img/logo.png" alt="WordPress Development"></a></p>
+      <p><a href="/"><img src="<?php bloginfo("template_directory"); ?>/assets/img/logo.png" alt="WordPress Development"></a></p>
     </div><!-- /.col-sm-3 -->
     <div class="col-sm-6">
       <nav>
