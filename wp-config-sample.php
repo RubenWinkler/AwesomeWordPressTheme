@@ -29,18 +29,18 @@
  * Ersetze datenbankname_hier_einfuegen
  * mit dem Namen der Datenbank, die du verwenden möchtest.
  */
-define('DB_NAME', 'wordpressdevelopment');
+define('DB_NAME', 'datenbankname_hier_einfuegen');
 
 /**
  * Ersetze benutzername_hier_einfuegen
  * mit deinem MySQL-Datenbank-Benutzernamen.
  */
-define('DB_USER', 'ruben');
+define('DB_USER', 'benutzername_hier_einfuegen');
 
 /**
  * Ersetze passwort_hier_einfuegen mit deinem MySQL-Passwort.
  */
-define('DB_PASSWORD', 'dZVAzxWwB5wD5PeA');
+define('DB_PASSWORD', 'passwort_hier_einfuegen');
 
 /**
  * Ersetze localhost mit der MySQL-Serveradresse.
@@ -70,14 +70,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
- define('AUTH_KEY',         'p.&+LhKq3,`u~P[FO0Oj?Ccd@Q g;1&S(9h&H2F5KL6j+t~O_|a2N!~ s_i5pMw1');
- define('SECURE_AUTH_KEY',  '*%$i04 };$-pCQZPJfK?c/GA}&0G4]t<`j`M%#_$ha-cm~*<zU&xKG=~m(J[=DkV');
- define('LOGGED_IN_KEY',    '-nu_^$B-y,#T!qk0`4.P7*6rBSb|i9@,SN-J8ws>lPU&0K5L~t8BOt(S0%L<MUFI');
- define('NONCE_KEY',        'TwLeY63Ds!soy>o(/Og8QIw!,+:t$n{iFO[J;2rD]s<DgdSR|RYTV$6s$]Qv(-_)');
- define('AUTH_SALT',        'G8*9_xlqZ{L|NRez;$l|>AYJsn.dKESf_yx).qP2j-A%Nv+1`NKG#7%K]~hQ7N{h');
- define('SECURE_AUTH_SALT', 'zMR<KL|d&matty|j+{U3|>v|6*U3CfHn8bSI1S6sBmJVnp`]:]!z1?b&&|`!vxhZ');
- define('LOGGED_IN_SALT',   'Sm#zH!C9%c`Y@@=}PKtP|Tm+:x1waR#FDPP;BW]mQ!:q_a_A6xrP%fH)D.a|8utD');
- define('NONCE_SALT',       '98RoQWh9AS/~};2P+5l]bWw3$.cdCsFBR)AmKqv3*9{|EOqb,}2eeQU{26/laKco');
+define('AUTH_KEY',         'Füge hier deine Zeichenkette ein');
+define('SECURE_AUTH_KEY',  'Füge hier deine Zeichenkette ein');
+define('LOGGED_IN_KEY',    'Füge hier deine Zeichenkette ein');
+define('NONCE_KEY',        'Füge hier deine Zeichenkette ein');
+define('AUTH_SALT',        'Füge hier deine Zeichenkette ein');
+define('SECURE_AUTH_SALT', 'Füge hier deine Zeichenkette ein');
+define('LOGGED_IN_SALT',   'Füge hier deine Zeichenkette ein');
+define('NONCE_SALT',       'Füge hier deine Zeichenkette ein');
 
 /**#@-*/
 
@@ -88,7 +88,7 @@ define('DB_COLLATE', '');
  * verschiedene WordPress-Installationen betreiben.
  * Bitte verwende nur Zahlen, Buchstaben und Unterstriche!
  */
-$table_prefix  = 'wpd_';
+$table_prefix  = 'wp_';
 
 /**
  * Für Entwickler: Der WordPress-Debug-Modus.

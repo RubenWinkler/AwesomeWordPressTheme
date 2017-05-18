@@ -20,8 +20,8 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6 col-sm-offset-3">
-        <h2>Are you ready to take your coding skills to the <strong>next level</strong>?</h2>
-        <p><a href="#" class="btn btn-lg btn-block btn-success">Yes, sign me up!</a></p>
+        <h2>Du willst immer über neue <strong>Artikel und Angebote</strong> informiert werden?</h2>
+        <p><a href="#" class="btn btn-lg btn-block btn-success">Ja klar, los geht's!</a></p>
       </div><!-- /.col-sm-6 col-sm-offset-3 -->
     </div><!-- /.row -->
   </div><!-- /.container -->
@@ -30,22 +30,17 @@
 <!-- FOOTER ================================================== -->
 <footer>
   <div class="container">
-    <div class="col-sm-3">
-      <p><a href="/"><img src="<?php bloginfo("template_directory"); ?>/assets/img/logo.png" alt="WordPress Development"></a></p>
-    </div><!-- /.col-sm-3 -->
-    <div class="col-sm-6">
-      <nav>
-        <ul class="list-unstyled list-inline">
-          <li><a href="">Home</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Resources</a></li>
-          <li><a href="">Contact</a></li>
-          <li class="signup-link"><a href="">Sign up now</a></li>
-        </ul>
-      </nav>
+    <div class="col-sm-6 col-sm-offset-3">
+      <?php
+        wp_nav_menu( array(
+          'theme_location'	=> 'footer',
+          'container'			=> 'nav',
+          'menu_class'		=> 'list-unstyled list-inline'
+        ) );
+      ?>
     </div><!-- /.col-sm-6 -->
     <div class="col-sm-3">
-      <p class="pull-right">&copy; 2017 - Ruben Winkler</p>
+      <p class="pull-right">&copy; <?php echo date('Y'); ?> - Ruben Winkler</p>
     </div><!-- /.col-sm-3 -->
   </div><!-- /.container -->
 </footer>

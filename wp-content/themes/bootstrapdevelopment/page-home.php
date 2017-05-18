@@ -11,7 +11,6 @@ get_header(); ?>
 <?php get_template_part('template-parts/content', 'myskills'); ?>
 <?php get_template_part('template-parts/content', 'myvideo'); ?>
 <?php get_template_part('template-parts/content', 'aboutme'); ?>
-<?php get_template_part('template-parts/content', 'testimonials'); ?>
 
 <?php
 get_footer();

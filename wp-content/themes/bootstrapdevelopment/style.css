@@ -447,13 +447,13 @@ button.btn:focus {
 }
 
 .btn-success {
-  background-color: #79b044;
+  background-color: #dd5638;
   border: none;
 }
 
 .btn-success:hover {
-  background-color: #6a9b3d;
-  border-color: #6a9b3d;
+  background-color: #dd5638;
+  border-color: #dd5638;
 }
 
 img {
@@ -512,10 +512,16 @@ blockquote:before {
 
 #hero {
   background: url("assets/img/hero-bg.jpg") 50% 0 repeat fixed;
-  min-height: 500px;
+  min-height: 400px;
   padding: 40px 0;
   color: white;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#hero h1 {
+  color: #dd5638;
+	-webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
@@ -525,7 +531,7 @@ blockquote:before {
 }
 
 #hero .hero-text {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 #price-timeline {
@@ -656,7 +662,7 @@ section h3 {
 }
 
 #featurette {
-  background: url("assets/img/stuff-bg.jpg") 50% 100% repeat fixed;
+  background: url("assets/img/webdevelopment-bg-cropped.jpg") 50% 100% repeat fixed;
   background-size: cover;
   text-align: center;
   color: white;
@@ -714,14 +720,9 @@ section h3 {
 
 #signup {
   text-align: center;
-  background: url("assets/img/hipster-stuff.jpg") center center repeat fixed;
+  background: url("assets/img/footer-bg-cropped.jpg") center center repeat fixed;
   background-size: cover;
   color: white;
-  padding: 140px 0;
-}
-
-#signup h2 {
-  font-weight: normal;
 }
 
 #signup h2 strong {
@@ -763,12 +764,18 @@ footer li.signup-link a:hover {
 
 .navbar-nav .current_page_item,
 .navbar-nav .current_page_parent{
-  background-color: #080808;
+  background-color: #dd5638;
 }
 
 .navbar-nav > li.current_page_item a,
 .navbar-nav > li.current_page_parent a {
   color: #fff;
+}
+
+.navbar-inverse {
+    background-color: #3e4249;
+    border-color: #3e4249;
+		border-bottom: none;
 }
 
 /* === BLOG STYLES === */
@@ -803,7 +810,7 @@ footer li.signup-link a:hover {
   font-size: 24px;
 }
 
-.post-image {
+.post-image img {
   height: auto;
 }
 
@@ -917,6 +924,40 @@ footer li.signup-link a:hover {
   margin: 40px 0 0;
   padding: 20px 0 0;
   border-top: solid 1px #eee;
+}
+
+/* specific WordPress comment-styles */
+
+#comments footer {
+	background: none;
+	color: inherit;
+}
+
+#comments footer a {
+	color: inherit;
+}
+
+#comments .comment-metadata {
+	margin: 10px 0 0;
+}
+
+/* ARCHIVE DESCRIPTIONS */
+
+h1 small {
+  color: white;
+  font-size: .45em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  text-rendering: optimizelegibility;
+}
+h1 small p {
+  margin: 5px 0 15px;
+}
+
+
+/* === RESOURCES === */
+.widget_search .search-submit {
+display: none;
 }
 
 /* === RESOURCES === */

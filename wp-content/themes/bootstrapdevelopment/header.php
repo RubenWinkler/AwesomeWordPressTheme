@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <div id="content">
  *
- * @package Bootstrap to WordPress
+ * @package AwesomeWordPressTheme
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -57,7 +57,7 @@
 							<span class="icon-bar"></span>
 						</button>
 
-						<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.png" alt="Bootstrap to WordPress"></a>
+						<!-- <a class="navbar-brand" href="<?php //echo esc_url( home_url( '/' ) ); ?>"><img src="<?php //bloginfo('stylesheet_directory'); ?>/assets/img/logo.png" alt="Bootstrap to WordPress"></a> -->
 
 					</div><!-- navbar-header -->
 
